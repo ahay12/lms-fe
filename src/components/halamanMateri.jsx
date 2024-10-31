@@ -60,7 +60,7 @@ export default function HalamanMateri() {
 
                     </iframe>
                 </div>
-                <div>
+                <div className="pt-5">
                     <h2 className="font-semibold lg:text-4xl text-3xl dark:text-white">Olahraga Aman Untuk Lansia</h2>
                     <p className="lg:pt-20 pt-10 dark:text-white">Olahraga atau aktivitas fisik untuk lansia perlu disesuaikan dengan kemampuan dan kondisi manula yang bersangkutan. Anda dapat memulainya dengan sesi konsultasi untuk memperoleh rekomendasi tipe aktivitas yang cocok dan batasan yang masih aman untuk tubuh mereka.</p>
                 </div>

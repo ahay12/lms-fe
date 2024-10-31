@@ -16,21 +16,21 @@ export default function Category() {
                         <div className="flex flex-col justify-center items-center gap-5 my-14">
                             <img src={"/logo-kesehatan.png"} alt="logo" className="w-24 h-24" />
                             <h3 className="text-2xl font-semibold">Kesehatan</h3>
-                            <button className="w-32 h-12 bg-gray rounded-2xl">Lihat Semua</button>
+                            <button className="w-32 h-12 bg-gray-200 rounded-2xl">Lihat Semua</button>
                         </div>
                     </div>
                     <div className="lg:w-[480px] lg:h-[314px] w-full h-72 bg-white rounded-md shadow-lg shadow-black/30">
                         <div className="flex flex-col justify-center items-center gap-5 my-14">
                             <img src={"/logo-teknologi.png"} alt="logo" className="w-24 h-24" />
                             <h3 className="text-2xl font-semibold">Teknologi</h3>
-                            <button className="w-32 h-12 bg-gray rounded-2xl">Lihat Semua</button>
+                            <button className="w-32 h-12 bg-gray-200 rounded-2xl">Lihat Semua</button>
                         </div>
                     </div>
                     <div className="lg:w-[480px] lg:h-[314px] w-full h-72 bg-white rounded-md shadow-lg shadow-black/30">
                         <div className="flex flex-col justify-center items-center gap-5 my-14">
                             <img src={"/logo-buku.png"} alt="logo" className="w-24 h-24" />
                             <h3 className="text-2xl font-semibold">Keterampilan Hidup</h3>
-                            <button className="w-32 h-12 bg-gray rounded-2xl">Lihat Semua</button>
+                            <button className="w-32 h-12 bg-gray-200 rounded-2xl">Lihat Semua</button>
                         </div>
                     </div>
 

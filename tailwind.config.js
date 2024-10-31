@@ -7,6 +7,9 @@ export default {
       center: true,
       padding: '16px',
     },
+    fontFamily: {
+      primary: 'Be Vietnam Pro',
+    },
     extend: {
       colors: {
         dark: '#1A1A1A',

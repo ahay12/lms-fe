@@ -1,3 +1,4 @@
+import Footer from "./footer";
 import Navbar from "./navbar";
 import { useState } from "react";
 
@@ -56,6 +57,7 @@ export default function Profil() {
 
                 </div>
             </div>
+            <Footer />
         </>
     );
 }

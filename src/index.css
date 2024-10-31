@@ -6,3 +6,8 @@
     background-color: #F5F5F5;
     scroll-behavior: smooth;
 }
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('./fonts/BeVietnamPro-Regular.ttf') format('truetype');
+}

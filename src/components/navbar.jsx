@@ -34,7 +34,7 @@ export default function Navbar({ name = '' }) {
 
     return (
         <header className="flex w-full items-center bg-white dark:bg-dark fixed top-0 left-0 shadow-sm z-10">
-            <div className="w-full h-[70px] md:h-[99px] border-b border-solid border-b-gray-200 border-white dark:border-dark flex items-center justify-between px-4 md:px-8">
+            <div className="w-full h-[70px] md:h-[99px] border-b border-solid border-b-gray-200 border-white dark:border-b-white flex items-center justify-between px-4 md:px-8">
                 <div className="flex items-center">
                     {/* Logo */}
                     <img

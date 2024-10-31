@@ -1,20 +1,19 @@
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
-import Category from './components/category'
-import Footer from './components/footer'
-import Hero from './components/hero'
-import Materi from './components/materi'
-import Navbar from './components/navbar'
+import { Route, Routes } from 'react-router-dom'
+import LandingPage from './components/landingPage'
+import KategoriMateri from './components/kategoriMateri'
+import HalamanMateri from './components/halamanMateri'
+import Profil from './components/profil'
+
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Category />
-      <Materi />
-      <Footer />
+      <Routes>
+        <Route path='/' element={<LandingPage />} />
+        <Route path='/kategori-materi' element={<KategoriMateri />} />
+        <Route path='/materi' element={<HalamanMateri />} />
+        <Route path='/profil' element={<Profil />} />
+      </Routes>
     </>
   )
 }

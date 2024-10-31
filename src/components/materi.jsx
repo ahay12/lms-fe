@@ -19,7 +19,7 @@ export default function Materi() {
                             <h3 className="lg:text-xl text-sm font-semibold">Olahraga Aman Untuk Lansia</h3>
                             <p className="lg:text-base text-xs">Temukan panduan olahraga ringan yang aman dan efektif untuk menjaga kebugaran fisik</p>
                         </div>
-                        <button className="w-[90%] lg:h-12 rounded-md bg-gray-200 lg:mx-8 mx-3">Mulai Belajar</button>
+                        <button className="w-[90%] lg:h-12 h-10 rounded-md bg-gray-200 lg:mx-8 mx-4">Mulai Belajar</button>
                     </div>
                     <div className="lg:w-[650px] lg:h-[600px] w-full h-96 bg-white rounded-lg">
                         <img src={"/materi-1.png"} alt="gambar" className="w-[80%] mx-auto mt-10" />
@@ -27,7 +27,7 @@ export default function Materi() {
                             <h3 className="lg:text-xl text-sm font-semibold">Olahraga Aman Untuk Lansia</h3>
                             <p className="lg:text-base text-xs">Temukan panduan olahraga ringan yang aman dan efektif untuk menjaga kebugaran fisik</p>
                         </div>
-                        <button className="w-[90%] lg:h-12 rounded-md bg-gray-200 lg:mx-8 mx-2">Mulai Belajar</button>
+                        <button className="w-[90%] lg:h-12 h-10 rounded-md bg-gray-200 lg:mx-8 mx-4">Mulai Belajar</button>
                     </div>
                     <div className="lg:w-[650px] lg:h-[600px] w-full h-96 bg-white rounded-lg">
                         <img src={"/materi-1.png"} alt="gambar" className="w-[80%] mx-auto mt-10" />
@@ -35,7 +35,7 @@ export default function Materi() {
                             <h3 className="lg:text-xl text-sm font-semibold">Olahraga Aman Untuk Lansia</h3>
                             <p className="lg:text-base text-xs">Temukan panduan olahraga ringan yang aman dan efektif untuk menjaga kebugaran fisik</p>
                         </div>
-                        <button className="w-[90%] lg:h-12 rounded-md bg-gray-200 lg:mx-8 mx-2">Mulai Belajar</button>
+                        <button className="w-[90%] lg:h-12 h-10 rounded-md bg-gray-200 lg:mx-8 mx-4">Mulai Belajar</button>
                     </div>
                     <div className="lg:w-[650px] lg:h-[600px] w-full h-96 bg-white rounded-lg">
                         <img src={"/materi-1.png"} alt="gambar" className="w-[80%] mx-auto mt-10" />
@@ -43,7 +43,7 @@ export default function Materi() {
                             <h3 className="lg:text-xl text-sm font-semibold">Olahraga Aman Untuk Lansia</h3>
                             <p className="lg:text-base text-xs">Temukan panduan olahraga ringan yang aman dan efektif untuk menjaga kebugaran fisik</p>
                         </div>
-                        <button className="w-[90%] lg:h-12 rounded-md bg-gray-200 lg:mx-8 mx-2">Mulai Belajar</button>
+                        <button className="w-[90%] lg:h-12 h-10 rounded-md bg-gray-200 lg:mx-8 mx-4">Mulai Belajar</button>
                     </div>
                     {/* <div className="w-[650px] h-[600px] bg-white rounded-lg">
                         <img src={"/materi-1.png"} alt="gambar" className="w-[80%] mx-auto mt-10" />

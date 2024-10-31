@@ -12,7 +12,7 @@ export default function Profil() {
         <>
             <Navbar name="Profil Pengguna" />
 
-            <div className="grid grid-cols-2 pt-32 gap-8 max-w-7xl mx-auto">
+            <div className="grid lg:grid-cols-2 pt-32 gap-8 max-w-7xl mx-auto">
                 <div className="w-full h-96 bg-white rounded-md">
                     <div className="w-full h-24 bg-[#4D44B5] relative rounded-md">
                         <img src="/bg-profil.png" alt="img" className="w-full h-full" />
@@ -38,15 +38,15 @@ export default function Profil() {
                     <div className="pl-5 pt-10 grid grid-cols-3">
                         <div>
                             <h5 className="text-[#a0a0a0]">Lokasi</h5>
-                            <p>Jakarta, Indonesia</p>
+                            <p className="lg:text-base text-xs">Jakarta, Indonesia</p>
                         </div>
                         <div>
                             <h5 className="text-[#a0a0a0]">No Telp</h5>
-                            <p className="font-bold">+62 0982-8298-8712</p>
+                            <p className="font-bold lg:text-base text-xs">+62 0982-8298-8712</p>
                         </div>
                         <div>
                             <h5 className="text-[#a0a0a0]">Email</h5>
-                            <p className="font-bold">user@mail.com</p>
+                            <p className="font-bold lg:text-base text-xs">user@mail.com</p>
                         </div>
                     </div>
                 </div>

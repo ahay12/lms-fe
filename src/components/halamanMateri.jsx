@@ -31,13 +31,13 @@ export default function HalamanMateri() {
                 onBlur={handleBlur}
             >
                 <div className="p-3 flex justify-between">
-                    <p className="font-semibold">Lorem ipsum dolor sit amet consectetur.</p>
-                    <span className={`p-2 bg-gray flex gap-x-1 ${isFocused.section === sectionId && isFocused.button === buttonId ? 'bg-orange-100' : ''} rounded-md`}>
+                    <p className="font-semibold lg:text-base text-xs">Lorem ipsum dolor sit amet consectetur.</p>
+                    <span className={`p-2 bg-gray flex gap-x-1 ${isFocused.section === sectionId && isFocused.button === buttonId ? 'bg-orange-100' : 'bg-secondary'} rounded-md`}>
                         <img src="/time.png" alt="img" />
                         43 Menit
                     </span>
                 </div>
-                <p className="pl-3 -mt-3 text-[#7d7d7d] text-left">Pembelajaran {buttonId}</p>
+                <p className="pl-3 -mt-3 text-[#7d7d7d] text-left lg:text-base text-xs">Pembelajaran {buttonId}</p>
             </button>
         ))
     );
@@ -45,9 +45,9 @@ export default function HalamanMateri() {
     return (
         <>
             <Navbar />
-            <h1 className="uppercase text-4xl pt-32 max-w-7xl mx-auto font-semibold dark:text-white">Halaman Materi</h1>
+            <h1 className="container uppercase text-4xl pt-32 max-w-7xl mx-auto font-semibold dark:text-white">Halaman Materi</h1>
 
-            <div className="grid grid-cols-2 max-w-7xl mx-auto pt-32 gap-x-10">
+            <div className="container grid lg:grid-cols-2 max-w-7xl mx-auto pt-32 gap-x-10">
                 <div>
                     <iframe
                         src="https://www.youtube.com/embed/NpgA62suLuI"
@@ -61,15 +61,15 @@ export default function HalamanMateri() {
                     </iframe>
                 </div>
                 <div>
-                    <h2 className="font-semibold text-4xl dark:text-white">Olahraga Aman Untuk Lansia</h2>
-                    <p className="pt-20 dark:text-white">Olahraga atau aktivitas fisik untuk lansia perlu disesuaikan dengan kemampuan dan kondisi manula yang bersangkutan. Anda dapat memulainya dengan sesi konsultasi untuk memperoleh rekomendasi tipe aktivitas yang cocok dan batasan yang masih aman untuk tubuh mereka.</p>
+                    <h2 className="font-semibold lg:text-4xl text-3xl dark:text-white">Olahraga Aman Untuk Lansia</h2>
+                    <p className="lg:pt-20 pt-10 dark:text-white">Olahraga atau aktivitas fisik untuk lansia perlu disesuaikan dengan kemampuan dan kondisi manula yang bersangkutan. Anda dapat memulainya dengan sesi konsultasi untuk memperoleh rekomendasi tipe aktivitas yang cocok dan batasan yang masih aman untuk tubuh mereka.</p>
                 </div>
             </div>
-            <div className="flex justify-end mr-20 pt-20 pb-5">
+            <div className="flex justify-end lg:mr-20 mr-5 pt-20 pb-5">
                 <button className="w-40 h-12 bg-green-300 rounded-3xl font-semibold shadow-md">Tanya Pengajar</button>
             </div>
             {/* Materi */}
-            <div className="max-w-7xl grid grid-cols-2 gap-8 mx-auto">
+            <div className="max-w-7xl grid lg:grid-cols-2 gap-8 mx-auto">
                 {sections.map((section) => (
                     <div key={section.id} className="w-full h-auto pb-10 bg-white rounded-md">
                         <h1 className="text-right pr-10 pt-10 text-3xl font-bold">0{section.id}</h1>

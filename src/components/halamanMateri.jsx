@@ -31,8 +31,8 @@ export default function HalamanMateri() {
                 onBlur={handleBlur}
             >
                 <div className="p-3 flex justify-between">
-                    <p className="font-semibold lg:text-base text-xs">Lorem ipsum dolor sit amet consectetur.</p>
-                    <span className={`p-2 bg-gray flex gap-x-1 ${isFocused.section === sectionId && isFocused.button === buttonId ? 'bg-orange-100' : 'bg-secondary'} rounded-md`}>
+                    <p className="font-semibold lg:text-base text-left text-xs">Lorem ipsum dolor sit amet consectetur.</p>
+                    <span className={`lg:p-2 p-1 lg:text-base text-xs flex gap-x-1 items-center ${isFocused.section === sectionId && isFocused.button === buttonId ? 'bg-orange-100' : 'bg-secondary'} rounded-md`}>
                         <img src="/time.png" alt="img" />
                         43 Menit
                     </span>
@@ -55,7 +55,7 @@ export default function HalamanMateri() {
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerPolicy="strict-origin-when-cross-origin"
-                        className="rounded-md w-full h-96"
+                        className="rounded-md w-full lg:h-96 h-56"
                         allowfullscreen>
 
                     </iframe>

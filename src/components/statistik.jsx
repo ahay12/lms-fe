@@ -241,7 +241,7 @@ export default function Statistik() {
                             <p>Showing <span className="font-bold">1-5</span> from 100 data</p>
                         </div>
                         <div>
-                            <img src="/Page.png" alt="img" className="lg:w-56 lg:h-18 w-26 h-10" />
+                            <img src="/Page.png" alt="img" className="lg:w-56 lg:h-16 w-26 h-10" />
                         </div>
                     </div>
                 </div>

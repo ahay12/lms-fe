@@ -14,7 +14,7 @@ export default function Profil() {
             <Navbar name="Profil Pengguna" />
 
             <div className="grid lg:grid-cols-2 pt-32 gap-8 max-w-7xl mx-auto">
-                <div className="w-full h-96 bg-white rounded-md">
+                <div className="w-full h-96 bg-white rounded-md p-3">
                     <div className="w-full h-24 bg-[#4D44B5] relative rounded-md">
                         <img src="/bg-profil.png" alt="img" className="w-full h-full" />
                         <div className="absolute left-5 top-7 w-28 h-28 bg-white rounded-full">

@@ -5,6 +5,7 @@ import HalamanMateri from './components/halamanMateri'
 import Profil from './components/profil'
 import NotFound from './components/notFound'
 import Forum from './components/forum'
+import Statistik from './components/statistik'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/materi' element={<HalamanMateri />} />
         <Route path='/profil' element={<Profil />} />
         <Route path='/forum' element={<Forum />} />
+        <Route path='/statistik' element={<Statistik />} />
       </Routes>
     </>
   )

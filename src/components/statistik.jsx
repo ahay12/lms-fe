@@ -79,26 +79,26 @@ export default function Statistik() {
                         <div className="grid grid-cols-5 place-items-center">
                             {/* Col 1 */}
                             <div className="flex items-center gap-2">
-                                <img src="" alt="img" className="w-10 h-10 rounded-full bg-gray-300" />
-                                <div className="text-[#303972] font-semibold">Judul Materi</div>
+                                <img src="" alt="img" className="lg:w-10 lg:h-10 w-6 h-6 rounded-full bg-gray-300" />
+                                <div className="text-[#303972] font-semibold lg:text-base text-xs">Judul Materi</div>
                             </div>
                             {/* Col 2 */}
-                            <div className="text-[#303972] font-semibold">ID 12345678</div>
+                            <div className="text-[#303972] font-semibold lg:text-base text-xs">ID 12345678</div>
                             {/* Col 3 */}
                             <div className="flex items-center gap-2">
-                                <img src="/icon.png" alt="img" className="w-10 h-10 rounded-full bg-gray-300" />
-                                <div>
+                                <img src="/icon.png" alt="img" className="lg:w-10 lg:h-10 w-6 h-6 rounded-full bg-gray-300" />
+                                <div className="lg:text-base text-xs">
                                     <p className="dark:text-white">Class</p>
                                     <p className="text-[#303972] font-semibold">VII</p>
                                 </div>
                             </div>
                             {/* Col 4 */}
-                            <div className="dark:text-white">
+                            <div className="dark:text-white text-xs">
                                 <p>Views</p>
                                 <p>100</p>
                             </div>
                             {/* Col 5 */}
-                            <div className="flex gap-x-10">
+                            <div className="flex lg:gap-x-10 gap-x-5">
                                 <button>
                                     <img src="/print.png" alt="img" />
                                 </button>
@@ -111,26 +111,26 @@ export default function Statistik() {
                         <div className="grid grid-cols-5 place-items-center">
                             {/* Col 1 */}
                             <div className="flex items-center gap-2">
-                                <img src="" alt="img" className="w-10 h-10 rounded-full bg-gray-300" />
-                                <div className="text-[#303972] font-semibold">Judul Materi</div>
+                                <img src="" alt="img" className="lg:w-10 lg:h-10 w-6 h-6 rounded-full bg-gray-300" />
+                                <div className="text-[#303972] font-semibold lg:text-base text-xs">Judul Materi</div>
                             </div>
                             {/* Col 2 */}
-                            <div className="text-[#303972] font-semibold">ID 12345678</div>
+                            <div className="text-[#303972] font-semibold lg:text-base text-xs">ID 12345678</div>
                             {/* Col 3 */}
                             <div className="flex items-center gap-2">
-                                <img src="/icon.png" alt="img" className="w-10 h-10 rounded-full bg-gray-300" />
-                                <div>
+                                <img src="/icon.png" alt="img" className="lg:w-10 lg:h-10 w-6 h-6 rounded-full bg-gray-300" />
+                                <div className="lg:text-base text-xs">
                                     <p className="dark:text-white">Class</p>
                                     <p className="text-[#303972] font-semibold">VII</p>
                                 </div>
                             </div>
                             {/* Col 4 */}
-                            <div className="dark:text-white">
+                            <div className="dark:text-white text-xs">
                                 <p>Views</p>
                                 <p>100</p>
                             </div>
                             {/* Col 5 */}
-                            <div className="flex gap-x-10">
+                            <div className="flex lg:gap-x-10 gap-x-5">
                                 <button>
                                     <img src="/print.png" alt="img" />
                                 </button>
@@ -143,26 +143,26 @@ export default function Statistik() {
                         <div className="grid grid-cols-5 place-items-center">
                             {/* Col 1 */}
                             <div className="flex items-center gap-2">
-                                <img src="" alt="img" className="w-10 h-10 rounded-full bg-gray-300" />
-                                <div className="text-[#303972] font-semibold">Judul Materi</div>
+                                <img src="" alt="img" className="lg:w-10 lg:h-10 w-6 h-6 rounded-full bg-gray-300" />
+                                <div className="text-[#303972] font-semibold lg:text-base text-xs">Judul Materi</div>
                             </div>
                             {/* Col 2 */}
-                            <div className="text-[#303972] font-semibold">ID 12345678</div>
+                            <div className="text-[#303972] font-semibold lg:text-base text-xs">ID 12345678</div>
                             {/* Col 3 */}
                             <div className="flex items-center gap-2">
-                                <img src="/icon.png" alt="img" className="w-10 h-10 rounded-full bg-gray-300" />
-                                <div>
+                                <img src="/icon.png" alt="img" className="lg:w-10 lg:h-10 w-6 h-6 rounded-full bg-gray-300" />
+                                <div className="lg:text-base text-xs">
                                     <p className="dark:text-white">Class</p>
                                     <p className="text-[#303972] font-semibold">VII</p>
                                 </div>
                             </div>
                             {/* Col 4 */}
-                            <div className="dark:text-white">
+                            <div className="dark:text-white text-xs">
                                 <p>Views</p>
                                 <p>100</p>
                             </div>
                             {/* Col 5 */}
-                            <div className="flex gap-x-10">
+                            <div className="flex lg:gap-x-10 gap-x-5">
                                 <button>
                                     <img src="/print.png" alt="img" />
                                 </button>
@@ -175,26 +175,26 @@ export default function Statistik() {
                         <div className="grid grid-cols-5 place-items-center">
                             {/* Col 1 */}
                             <div className="flex items-center gap-2">
-                                <img src="" alt="img" className="w-10 h-10 rounded-full bg-gray-300" />
-                                <div className="text-[#303972] font-semibold">Judul Materi</div>
+                                <img src="" alt="img" className="lg:w-10 lg:h-10 w-6 h-6 rounded-full bg-gray-300" />
+                                <div className="text-[#303972] font-semibold lg:text-base text-xs">Judul Materi</div>
                             </div>
                             {/* Col 2 */}
-                            <div className="text-[#303972] font-semibold">ID 12345678</div>
+                            <div className="text-[#303972] font-semibold lg:text-base text-xs">ID 12345678</div>
                             {/* Col 3 */}
                             <div className="flex items-center gap-2">
-                                <img src="/icon.png" alt="img" className="w-10 h-10 rounded-full bg-gray-300" />
-                                <div>
+                                <img src="/icon.png" alt="img" className="lg:w-10 lg:h-10 w-6 h-6 rounded-full bg-gray-300" />
+                                <div className="lg:text-base text-xs">
                                     <p className="dark:text-white">Class</p>
                                     <p className="text-[#303972] font-semibold">VII</p>
                                 </div>
                             </div>
                             {/* Col 4 */}
-                            <div className="dark:text-white">
+                            <div className="dark:text-white text-xs">
                                 <p>Views</p>
                                 <p>100</p>
                             </div>
                             {/* Col 5 */}
-                            <div className="flex gap-x-10">
+                            <div className="flex lg:gap-x-10 gap-x-5">
                                 <button>
                                     <img src="/print.png" alt="img" />
                                 </button>
@@ -207,26 +207,26 @@ export default function Statistik() {
                         <div className="grid grid-cols-5 place-items-center">
                             {/* Col 1 */}
                             <div className="flex items-center gap-2">
-                                <img src="" alt="img" className="w-10 h-10 rounded-full bg-gray-300" />
-                                <div className="text-[#303972] font-semibold">Judul Materi</div>
+                                <img src="" alt="img" className="lg:w-10 lg:h-10 w-6 h-6 rounded-full bg-gray-300" />
+                                <div className="text-[#303972] font-semibold lg:text-base text-xs">Judul Materi</div>
                             </div>
                             {/* Col 2 */}
-                            <div className="text-[#303972] font-semibold">ID 12345678</div>
+                            <div className="text-[#303972] font-semibold lg:text-base text-xs">ID 12345678</div>
                             {/* Col 3 */}
                             <div className="flex items-center gap-2">
-                                <img src="/icon.png" alt="img" className="w-10 h-10 rounded-full bg-gray-300" />
-                                <div>
+                                <img src="/icon.png" alt="img" className="lg:w-10 lg:h-10 w-6 h-6 rounded-full bg-gray-300" />
+                                <div className="lg:text-base text-xs">
                                     <p className="dark:text-white">Class</p>
                                     <p className="text-[#303972] font-semibold">VII</p>
                                 </div>
                             </div>
                             {/* Col 4 */}
-                            <div className="dark:text-white">
+                            <div className="dark:text-white text-xs">
                                 <p>Views</p>
                                 <p>100</p>
                             </div>
                             {/* Col 5 */}
-                            <div className="flex gap-x-10">
+                            <div className="flex lg:gap-x-10 gap-x-5">
                                 <button>
                                     <img src="/print.png" alt="img" />
                                 </button>
@@ -236,12 +236,12 @@ export default function Statistik() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex justify-between items-center">
+                    <div className="flex justify-between items-center lg:text-base text-xs pt-4">
                         <div className="dark:text-white">
                             <p>Showing <span className="font-bold">1-5</span> from 100 data</p>
                         </div>
                         <div>
-                            <img src="/Page.png" alt="img" className="w-56 h-18" />
+                            <img src="/Page.png" alt="img" className="lg:w-56 lg:h-18 w-26 h-10" />
                         </div>
                     </div>
                 </div>

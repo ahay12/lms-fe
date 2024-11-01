@@ -1,4 +1,7 @@
+import useDocumentTitle from "../lib/useDocumentTitle"
+
 export default function NotFound() {
+    useDocumentTitle('404 | Not Found')
     return (
         <>
             <section className="w-screen h-screen flex items-center justify-center">

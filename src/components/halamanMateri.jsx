@@ -1,10 +1,12 @@
 import { useState } from "react";
 import Navbar from "./navbar";
 import Footer from "./footer";
+import useDocumentTitle from "../lib/useDocumentTitle";
 
 
 
 export default function HalamanMateri() {
+    useDocumentTitle('Halaman Materi')
     const [isFocused, setIsFocused] = useState({ section: null, button: null });
 
     const handleFocus = (sectionId, buttonId) => {

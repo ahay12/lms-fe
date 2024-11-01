@@ -1,8 +1,10 @@
+import useDocumentTitle from "../lib/useDocumentTitle";
 import Footer from "./footer";
 import Navbar from "./navbar";
 import { useState } from "react";
 
 export default function Profil() {
+    useDocumentTitle('Profil')
     const [isImageError, setIsImageError] = useState(false);
 
     const handleImageError = () => {
